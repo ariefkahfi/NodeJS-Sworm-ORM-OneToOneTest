@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Index Page</title>
+</head>
+<body>
+    <h3>Belajar NodeJS Sworm one to one (bridge table)</h3>
+
+    <div>
+        <div>Form Student</div>
+        <div>
+            Name : <input type="text" id="student_name" placeholder="Student name"/>
+        </div>
+        <div>
+            <button onclick="saveStudent()">Save student</button>
+        </div>
+    </div>
+
+    <hr/>
+
+    <div>
+        <div>Form Homework</div>
+        <div>
+            Homework page : <input type="number" id="homework_page" placeholder="Homework number"/>
+        </div>
+        <div>
+            Homework title : <input type="text" id="homework_title" placeholder="Homework title"/>
+        </div>
+        <div>
+            <button onclick="saveHomework()">Save Homework</button>
+        </div>
+    </div>
+
+    <hr/>
+
+    <a href="http://localhost:9600/list">List Page</a>
+
+</body>
+    <script src="http://localhost:9600/js/index.js"></script>
+</html>

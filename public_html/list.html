@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>List Student's Homework</title>
+</head>
+<body>
+    <div>
+        <div>Give student a homework</div>
+        <div>
+            Student id : <input type="number" id="sh_student"/>
+        </div>
+        <div>
+            Homework page : <input type="number" id="sh_homework"/>
+        </div>
+        <div>
+            <button onclick="saveStudentHomework()">Save student_homework</button>
+        </div>
+    </div>
+
+    <hr/>
+
+    <div>
+        <button onclick="listLeftJoinClick()">List all student with their homework</button>
+        <button onclick="listInnerJoinClick()">students who have got homework</button>
+    </div>
+
+    <hr/>
+    <div>
+        <h4 style="margin : 2px;">These Remaining tasks have not been given to the students</h4>
+        <table id="remaining-assignment" border="2">
+            <tr>
+                <td>Homework page</td>
+                <td>Homework title</td>
+            </tr>
+        </table>
+    </div>
+    <hr/>
+
+    <div>
+        <table id="table-model" border="2">
+            <!--<tr>-->
+                <!--<td>Student ID</td>-->
+                <!--<td>Student name</td>-->
+                <!--<td>Homework page</td>-->
+                <!--<td>Homework title</td>-->
+            <!--</tr>-->
+        </table>
+    </div>
+
+
+</body>
+    <script src="http://localhost:9600/js/list.js"></script>
+</html>
